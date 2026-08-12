@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Copilot Chat in Teams — A Tutor's Hour</title>
-<meta name="description" content="A 60-minute tutor training on Microsoft 365 Copilot Chat in Teams: the FERPA boundary, what the research actually shows about overreliance, and building a scaffolded tutor that withholds answers. By Jesse Rogers.">
+<meta name="description" content="A 45-minute tutor training on Microsoft 365 Copilot Chat in Teams: the FERPA boundary, what the research actually shows about overreliance, and building a scaffolded tutor that withholds answers. By Jesse Rogers.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..100,400..900&family=Public+Sans:ital,wght@0,400;0,600;1,400&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
@@ -409,10 +409,9 @@ footer{padding:3rem 0 4rem;color:var(--ink-soft);font-size:.95rem}
   <nav aria-label="Session sections">
     <ul class="modal-list">
       <li><a href="#b1"><span class="rn">I</span>The Prediction</a></li>
-      <li><a href="#b2"><span class="rn">II</span>The Line You Cannot Cross</a></li>
-      <li><a href="#b3"><span class="rn">III</span>Asking and Checking</a></li>
-      <li><a href="#b4"><span class="rn">IV</span>Build the Scaffolded Tutor</a></li>
-      <li><a href="#b5"><span class="rn">V</span>Three Moves for Monday</a></li>
+      <li><a href="#b3"><span class="rn">II</span>Asking and Checking</a></li>
+      <li><a href="#b4"><span class="rn">III</span>Build the Scaffolded Tutor</a></li>
+      <li><a href="#b5"><span class="rn">IV</span>Three Moves for Monday</a></li>
       <li><a href="#close"><span class="rn">✦</span>Closing</a></li>
       <li><a href="#refs"><span class="rn">§</span>References &amp; licence</a></li>
     </ul>
@@ -423,7 +422,7 @@ footer{padding:3rem 0 4rem;color:var(--ink-soft);font-size:.95rem}
 <div class="wrap">
 
 <header class="hero">
-  <p class="eyebrow">Tutor training · 60 minutes · Jesse Rogers</p>
+  <p class="eyebrow">Tutor training · 45 minutes · Jesse Rogers</p>
   <h1>Copilot Chat<br>in Teams</h1>
   <p class="sub">What to use it for, what never to put in it, and what the research actually says. Built for tutors and learning center staff.</p>
   <p class="hero-thesis">The tool is not the variable. <span class="hl">The scaffolding is.</span></p>
@@ -431,11 +430,10 @@ footer{padding:3rem 0 4rem;color:var(--ink-soft);font-size:.95rem}
   <div class="runsheet">
     <span class="label">Run sheet</span>
     <ol>
-      <li><span>I · The Prediction</span><span>10 min</span></li>
-      <li><span>II · The Line You Cannot Cross</span><span>10 min</span></li>
-      <li><span>III · Asking and Checking</span><span>10 min</span></li>
-      <li><span>IV · Build the Scaffolded Tutor</span><span>20 min</span></li>
-      <li><span>V · Three Moves for Monday</span><span>7 min</span></li>
+      <li><span>I · The Prediction</span><span>12 min</span></li>
+      <li><span>II · Asking and Checking</span><span>10 min</span></li>
+      <li><span>III · Build the Scaffolded Tutor</span><span>20 min</span></li>
+      <li><span>IV · Three Moves for Monday</span><span>7 min</span></li>
       <li><span>Closing</span><span>3 min</span></li>
     </ol>
   </div>
@@ -450,7 +448,7 @@ footer{padding:3rem 0 4rem;color:var(--ink-soft);font-size:.95rem}
 <section class="act" id="b1" aria-labelledby="b1-h">
   <p class="eyebrow">Block I</p>
   <h2 id="b1-h">The Prediction</h2>
-  <p class="timing">≈ 10 minutes</p>
+  <p class="timing">≈ 12 minutes</p>
 
   <p>Nearly a thousand high school mathematics students were randomly assigned to three groups for four sessions of practice. One group used a textbook. One used a standard ChatGPT-style assistant. One used the same underlying model with instructions to withhold solutions and give problem-specific hints.<sup><a href="#ref1">1</a></sup></p>
 
@@ -490,85 +488,26 @@ footer{padding:3rem 0 4rem;color:var(--ink-soft);font-size:.95rem}
 
   <div class="script">
     <span class="label">Land it</span>
-    <p>That is the whole reason this hour exists. In Block IV you are going to write those instructions yourself, and you will keep what you write.</p>
+    <p>That is the whole reason this hour exists. In Block III you are going to write those instructions yourself, and you will keep what you write.</p>
   </div>
 
   <p><strong>And it applies to us, not just to students.</strong> Experienced developers in a randomized trial predicted a 24% speedup, reported a 20% speedup afterward, and were measured taking 19% longer.<sup><a href="#ref5">5</a></sup> Different tool, different task, and the magnitude does not transfer. The mechanism does: your sense of whether AI made you faster is not a measurement. The working rule for the rest of the hour is <span class="hl">delegate what you have mastered, practice what you have not.</span></p>
-</section>
-
-<!-- ========================= BLOCK II ========================= -->
-<section class="act" id="b2" aria-labelledby="b2-h">
-  <p class="eyebrow">Block II</p>
-  <h2 id="b2-h">The Line You Cannot Cross</h2>
-  <p class="timing">≈ 10 minutes</p>
-
+  <h3>Before we go on — the one hard rule</h3>
   <div class="script warn">
     <span class="label">The rule</span>
-    <p><strong>Do not put student work, names, ID numbers, grades, advising notes, or anything else that identifies a student into Copilot Chat or any other AI tool, unless your institution has told you in writing that it is permitted.</strong></p>
+    <p><strong>Do not put student work, names, ID numbers, grades, advising notes, or anything else that identifies a student into Copilot Chat or any other AI tool, unless your institution has told you in writing that it is permitted for your context.</strong></p>
   </div>
 
-  <p>Tutors sit closer to student work than almost anyone on campus and typically hold the fewest permissions, so this lands on us hardest. The Family Educational Rights and Privacy Act protects education records, and an education record is broader than the transcript most people picture: a submitted essay, a draft, a discussion post, a problem set, an attendance note, an email describing a named student. There is no AI exception.<sup><a href="#ref6">6</a></sup></p>
+  <p>An education record is broader than the transcript most people picture: a submitted essay, a draft, a discussion post, a problem set, an attendance note, an email describing a named student. There is no AI exception.<sup><a href="#ref6">6</a></sup> A personal account does not fix it, signing in with your college email does not settle it, and deleting the name does not anonymise it. The move that works instead: <span class="hl">describe the situation generically rather than pasting the artifact.</span> That covers almost every legitimate purpose a tutor has.</p>
 
-  <p>Three things people expect to save them, which do not:</p>
-  <ul class="plain">
-    <li><strong>A personal account.</strong> No contract, no direct-control commitment, no education-aligned terms. Using one with student records is likely an unauthorized disclosure.<sup><a href="#ref7">7</a></sup></li>
-    <li><strong>Signing in with your college email.</strong> Whether your institution's deployment sits inside an agreement that satisfies the school official exception is a contractual question with a specific answer that someone here knows. It is not settled by the login screen.<sup><a href="#ref7">7</a></sup></li>
-    <li><strong>Deleting the name.</strong> In a section of twenty-two, a paper about a specific internship at a specific employer identifies its author to anyone who knows the class.</li>
-  </ul>
-
-  <p>The move that works instead: <span class="hl">describe the situation generically rather than pasting the artifact.</span> This covers almost every legitimate purpose a tutor has.</p>
-
-  <h3>Drill — paste it, or describe it?</h3>
-  <p>Six things a tutor might do this week. Call each one before you look at the answer.</p>
-
-  <div class="drill" id="drill">
-    <span class="scoreline" id="drillScore" role="status" aria-live="polite">0 of 6 answered</span>
-
-    <div class="item" data-answer="describe">
-      <p class="prompt">1. A student is stuck on a related-rates problem about a cone draining, and you want the three places students usually go wrong.</p>
-      <div class="choices"><button type="button" data-c="paste">Paste it</button><button type="button" data-c="describe">Describe it instead</button></div>
-      <p class="why">Describing the type of problem is not an education record. This is the highest-value use a tutor has, and it makes you better in the session instead of substituting for you in it.</p>
-    </div>
-
-    <div class="item" data-answer="paste">
-      <p class="prompt">2. Retyping the student's quiz work into the chat so it can find the arithmetic error.</p>
-      <div class="choices"><button type="button" data-c="paste">Paste it</button><button type="button" data-c="describe">Describe it instead</button></div>
-      <p class="why">Wrong — this one is off limits. Their work is an education record whether you photograph it, retype it, or paste it. Find the error the way you always have, or reconstruct a parallel problem with invented numbers.</p>
-    </div>
-
-    <div class="item" data-answer="describe">
-      <p class="prompt">3. Asking for six practice problems on logarithms at increasing difficulty, with worked solutions.</p>
-      <div class="choices"><button type="button" data-c="paste">Paste it</button><button type="button" data-c="describe">Describe it instead</button></div>
-      <p class="why">Fine, with one condition: verify every problem and every solution before a student sees it. Models still make arithmetic and logic errors.</p>
-    </div>
-
-    <div class="item" data-answer="paste">
-      <p class="prompt">4. The student asks you to run their draft essay through it during the session. They consent.</p>
-      <div class="choices"><button type="button" data-c="paste">Paste it</button><button type="button" data-c="describe">Describe it instead</button></div>
-      <p class="why">Wrong — still off limits. A student consenting to their own disclosure does not settle the institutional question, and you are acting as an employee when you do it. Coach them on what to ask for; do not paste it yourself.</p>
-    </div>
-
-    <div class="item" data-answer="paste">
-      <p class="prompt">5. Pasting your session notes at the end of the day to get a tidy summary. Names included.</p>
-      <div class="choices"><button type="button" data-c="paste">Paste it</button><button type="button" data-c="describe">Describe it instead</button></div>
-      <p class="why">Wrong — off limits. Write your notes the way you always did. The same applies to meeting transcripts: turn meeting AI off for any meeting where a student is named, and do it before the meeting rather than after.</p>
-    </div>
-
-    <div class="item" data-answer="describe">
-      <p class="prompt">6. You are covering a chemistry session tomorrow and you are shaky on buffers.</p>
-      <div class="choices"><button type="button" data-c="paste">Paste it</button><button type="button" data-c="describe">Describe it instead</button></div>
-      <p class="why">Fine, and do it tonight. Ask for the five things a tutor needs straight before walking in and the two things commonly taught wrong. Prep, not substitution.</p>
-    </div>
-  </div>
-
-  <div class="quickcard">
+<div class="quickcard">
     <h3>Pocket card</h3>
     <ul>
       <li><span class="x">NEVER</span>Student names, IDs, or emails · student work of any kind, including drafts · grades and degree audits · advising and conduct records · accommodation letters · financial aid information · screenshots of any of it</li>
       <li><span class="x">NEVER</span>Meeting transcripts in which students are named</li>
       <li><span class="ok">DO</span>Describe the situation generically instead of pasting the artifact</li>
       <li><span class="ok">DO</span>Turn meeting AI off for any meeting where a student is named</li>
-      <li><span class="ok">ASK</span>Contract questions to the CIO · policy questions to academic affairs · records questions to the registrar · legal questions to counsel</li>
+      <li><span class="ok">ASK</span>Anything you are unsure about — a specific tool, a specific document, a specific situation — goes to your supervisor before you do it</li>
     </ul>
   </div>
 
@@ -580,7 +519,7 @@ footer{padding:3rem 0 4rem;color:var(--ink-soft);font-size:.95rem}
 
 <!-- ========================= BLOCK III ========================= -->
 <section class="act" id="b3" aria-labelledby="b3-h">
-  <p class="eyebrow">Block III</p>
+  <p class="eyebrow">Block II</p>
   <h2 id="b3-h">Asking and Checking</h2>
   <p class="timing">≈ 10 minutes</p>
 
@@ -589,7 +528,7 @@ footer{padding:3rem 0 4rem;color:var(--ink-soft);font-size:.95rem}
     <span class="tag problem">Problem</span>
     <p>"Draft a rubric" produces a rubric for nobody. The model has none of your context and will not ask for it.</p>
     <span class="tag strategy">Better</span>
-    <p>Microsoft's own framework has four parts: <strong>Goal, Context, Expectations, Source</strong>.<sup><a href="#ref8">8</a></sup> Goal is mandatory. Context is the part everyone skips and the part that changes output quality most. Expectations is format, length, and register — cheap to state, and it removes a round of revision. Source is what to work from; on the free Chat tier this matters more, because the tool cannot go find your material.</p>
+    <p>Microsoft's own framework has four parts: <strong>Goal, Context, Expectations, Source</strong>.<sup><a href="#ref7">7</a></sup> Goal is mandatory. Context is the part everyone skips and the part that changes output quality most. Expectations is format, length, and register — cheap to state, and it removes a round of revision. Source is what to work from; on the free Chat tier this matters more, because the tool cannot go find your material.</p>
     <p>The blocks need no labels and no order. Weave them into one natural request.</p>
   </div>
 
@@ -649,7 +588,7 @@ footer{padding:3rem 0 4rem;color:var(--ink-soft);font-size:.95rem}
 
 <!-- ========================= BLOCK IV ========================= -->
 <section class="act" id="b4" aria-labelledby="b4-h">
-  <p class="eyebrow">Block IV · Hands on</p>
+  <p class="eyebrow">Block III · Hands on</p>
   <h2 id="b4-h">Build the Scaffolded Tutor</h2>
   <p class="timing">≈ 20 minutes — the point of the session</p>
 
@@ -717,13 +656,13 @@ Write it as instructions addressed to you, not as a description.</pre>
 
   <div class="script warn">
     <span class="label">Before you hand it to a student</span>
-    <p>A scaffolded tutor is a study aid, not a substitute for a session, and it does not change anything in Block II. The student runs it on their own account, on their own work. You do not run it on theirs.</p>
+    <p>A scaffolded tutor is a study aid, not a substitute for a session, and it does not change the rule in Block I. The student runs it on their own account, on their own work. You do not run it on theirs.</p>
   </div>
 </section>
 
 <!-- ========================= BLOCK V ========================= -->
 <section class="act" id="b5" aria-labelledby="b5-h">
-  <p class="eyebrow">Block V</p>
+  <p class="eyebrow">Block IV</p>
   <h2 id="b5-h">Three Moves for Monday</h2>
   <p class="timing">≈ 7 minutes</p>
 
@@ -789,8 +728,7 @@ Write it as instructions addressed to you, not as a description.</pre>
       <li id="ref4">Barshay J. An AI tutor helped Harvard students learn more physics in less time. <em>The Hechinger Report</em>. September 16, 2024. <a href="https://hechingerreport.org/proof-points-ai-tutor-harvard-physics/">hechingerreport.org</a></li>
       <li id="ref5">Becker J, Rush N, Barnes E, Rein D. Measuring the impact of early-2025 AI on experienced open-source developer productivity. arXiv:2507.09089. Preprint posted online July 10, 2025. <a href="https://arxiv.org/abs/2507.09089">arxiv.org</a></li>
       <li id="ref6">Family Educational Rights and Privacy Act regulations, 34 CFR Part 99. Electronic Code of Federal Regulations. <a href="https://www.ecfr.gov/current/title-34/subtitle-A/part-99">ecfr.gov</a></li>
-      <li id="ref7">Privacy Technical Assistance Center, US Department of Education. Protecting Student Privacy While Using Online Educational Services: Requirements and Best Practices. February 2014. <a href="https://studentprivacy.ed.gov/">studentprivacy.ed.gov</a></li>
-      <li id="ref8">Microsoft. Overview of Microsoft 365 Copilot Chat. Microsoft Learn. <a href="https://learn.microsoft.com/en-us/copilot/overview">learn.microsoft.com</a></li>
+      <li id="ref7">Microsoft. Overview of Microsoft 365 Copilot Chat. Microsoft Learn. <a href="https://learn.microsoft.com/en-us/copilot/overview">learn.microsoft.com</a></li>
     </ol>
   </div>
 
@@ -913,30 +851,6 @@ Write it as instructions addressed to you, not as a description.</pre>
     this.textContent = "Revealed";
   });
 
-  /* ---------- Paste-or-describe drill ---------- */
-  var items = document.querySelectorAll("#drill .item");
-  var answered = 0;
-  var scoreEl = document.getElementById("drillScore");
-  items.forEach(function(item){
-    var correct = item.getAttribute("data-answer");
-    var why = item.querySelector(".why");
-    var btns = item.querySelectorAll(".choices button");
-    btns.forEach(function(b){
-      b.addEventListener("click", function(){
-        if(item.dataset.done) return;
-        item.dataset.done = "1";
-        answered++;
-        scoreEl.textContent = answered + " of " + items.length + " answered";
-        btns.forEach(function(x){
-          if(x.getAttribute("data-c") === correct) x.classList.add("right");
-          else if(x === b) x.classList.add("wrong");
-          x.disabled = true;
-        });
-        why.classList.add("shown");
-      });
-    });
-  });
-
   /* ---------- Spec builder ---------- */
   var out = document.getElementById("specOut");
   function assemble(){
@@ -1013,4 +927,3 @@ Write it as instructions addressed to you, not as a description.</pre>
 </script>
 </body>
 </html>
-
